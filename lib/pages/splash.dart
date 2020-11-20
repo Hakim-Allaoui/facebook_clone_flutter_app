@@ -1,4 +1,5 @@
 import 'package:facebook_clone_flutter_app/utils/navigator.dart';
+import 'package:facebook_clone_flutter_app/utils/tools.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -11,7 +12,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
 
-    Future.delayed(Duration(seconds: 10), () {
+    Future.delayed(Duration(seconds: 3), () {
       HKNavigator.goHome(context);
     });
 
@@ -19,9 +20,12 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
+    Tools.getDeviceDimensions(context);
     return Scaffold(
       body: SafeArea(
-        child: Container(),
+        child: Center(
+          child: Image.asset('assets/icon.png', width: Tools.width * 0.3,),
+        ),
       ),
     );
   }
