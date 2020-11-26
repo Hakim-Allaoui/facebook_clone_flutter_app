@@ -14,3 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+
+![](https://github.com/Hakim-Allaoui/facebook_clone_flutter_app/raw/2e8a503b795906fa4d93129fe408ab7683c4c9d9/screenshots/screenshots.png)
