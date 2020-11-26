@@ -1,4 +1,4 @@
-package com.amegodev.facebook_clone_flutter_app
+package com.hvkiw.fbclonepost
 
 import io.flutter.embedding.android.FlutterActivity
 
